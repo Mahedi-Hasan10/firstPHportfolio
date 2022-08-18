@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+section {
+  height: 500px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+h1 {
+  font-size: 50px;
+  padding: 7px 0;
+}
+h3 {
+  font-size: 18px;
+  padding: 7px 0;
+}
+.text_heighlight {
+  color: #51c58b;
+}
+.half_width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+@media (max-width: 700px) {
+  .half_width {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+}
+.half_width img {
+  height: auto;
+  width: 100%;
+}
+.top-banner {
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+}
+.hire_p {
+  margin-bottom: 25px;
+}
+.hire_me {
+  background-image: linear-gradient(lightgreen, #51c58b);
+  padding: 6px 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.dream_area {
+  background-image: url("image/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.single_experience {
+  box-sizing: border-box;
+  box-shadow: 10px 10px 40px gray;
+  padding: 20px;
+  border-radius: 10px;
+  height: 60%;
+}
+.experience {
+  background-image: url("image/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full_stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(lightgreen, #51c58b);
+  border-image-slice: 1;
+}
+#baby_stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(237, 74, 4), orange);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  padding: 15px 0;
+}
+footer p {
+  font-size: 18px;
+}
